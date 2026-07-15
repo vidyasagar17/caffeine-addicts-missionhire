@@ -73,13 +73,12 @@
   .provenance b{color:var(--ink);font-weight:500}
   .provenance .x{color:var(--brass)}
   .hackbadge{margin-top:26px;max-width:46ch;border:1.5px solid var(--brass);
-    background:var(--brass-soft);display:flex;gap:14px;align-items:flex-start;
-    padding:15px 18px;box-shadow:6px 7px 0 rgba(154,107,24,.14)}
-  .hackbadge .k{font-family:var(--mono);font-size:.58rem;letter-spacing:.16em;
-    text-transform:uppercase;color:#fff;background:var(--brass);padding:5px 9px;
-    font-weight:600;flex:none;margin-top:3px}
+    background:var(--brass-soft);display:flex;flex-direction:column;gap:12px;
+    padding:16px 18px;box-shadow:6px 7px 0 rgba(154,107,24,.14)}
+  .hackbadge .hl{align-self:flex-start;font-family:var(--mono);font-size:.64rem;
+    letter-spacing:.09em;text-transform:uppercase;font-weight:600;color:var(--ink);
+    background:#fff;border:1.5px solid var(--brass);padding:6px 11px;line-height:1.4}
   .hackbadge p{font-family:var(--serif);font-size:1rem;line-height:1.5;color:#4a3d22;margin:0}
-  .hackbadge b{font-weight:600;color:var(--ink)}
   .btn{font-family:var(--mono);font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;
     padding:13px 22px;text-decoration:none;border:1.5px solid var(--ink);transition:.18s}
   .btn.solid{background:var(--ink);color:var(--paper)}
@@ -248,7 +247,7 @@
       <div class="eyebrow">File under — Talent Memory</div>
       <h1>After the interview ends, the <em>memory</em> shouldn't.</h1>
       <p class="lede"><b>Mission:Hire keeps a living record of every strong candidate you didn't hire — and when the right role opens, it pulls their file before you think to ask.</b></p>
-      <div class="hackbadge"><span class="k">Hackathon</span><p>We recently took part in the <b>Salesforce &times; MetroStar &ldquo;Mission: Hire&rdquo; Summer Hackathon</b> — and built exactly this: an Agentforce-powered talent memory that turns raw interview feedback into an AI-searchable record of everyone you almost hired.</p></div>
+      <div class="hackbadge"><span class="hl">Salesforce &times; MetroStar &middot; &ldquo;Mission: Hire&rdquo; Summer Hackathon</span><p>We recently took part — and built exactly this: an Agentforce-powered talent memory that turns raw interview feedback into an AI-searchable record of everyone you almost hired.</p></div>
       <div class="herocta">
         <a class="btn solid" href="#process">Read how it works</a>
         <!-- 🔗 replace # with your repo URL -->
