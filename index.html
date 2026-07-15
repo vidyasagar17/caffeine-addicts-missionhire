@@ -67,6 +67,11 @@
   .lede{font-size:1.24rem;color:#33373d;max-width:33ch}
   .lede b{font-weight:500}
   .herocta{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap}
+  .provenance{font-family:var(--mono);font-size:.7rem;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--graphite);margin-top:28px;display:flex;align-items:center;gap:11px;flex-wrap:wrap}
+  .provenance::before{content:"";width:22px;height:1px;background:var(--brass);flex:none}
+  .provenance b{color:var(--ink);font-weight:500}
+  .provenance .x{color:var(--brass)}
   .btn{font-family:var(--mono);font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;
     padding:13px 22px;text-decoration:none;border:1.5px solid var(--ink);transition:.18s}
   .btn.solid{background:var(--ink);color:var(--paper)}
@@ -240,6 +245,7 @@
         <!-- 🔗 replace # with your repo URL -->
         <a class="btn ghost" href="https://github.com/vidyasagar17/caffeine-addicts-missionhire">On GitHub</a>
       </div>
+      <div class="provenance">Built for the Salesforce <span class="x">&times;</span> MetroStar <b>Mission: Hire</b> Summer Hackathon · 2026</div>
     </div>
 
     <!-- signature dossier card -->
@@ -410,13 +416,14 @@
       <div class="n" data-id="Archivist · 04">Syama Latha Seera</div>
     </div>
     <p class="note">It was a genuine pleasure building Mission:Hire with all of you — thank you for the late nights, the ideas, and the energy.</p>
+    <div class="provenance" style="justify-content:center;margin-top:30px">Salesforce <span class="x">&times;</span> MetroStar — <b>Mission: Hire Summer Hackathon</b></div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
     <span>Mission:Hire — The Talent Archive</span>
-    <span>By Team Caffeine Addicts · Built on Salesforce · 2026</span>
+    <span>Salesforce × MetroStar Hackathon · By Team Caffeine Addicts · 2026</span>
   </div>
 </footer>
 
